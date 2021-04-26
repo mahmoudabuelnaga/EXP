@@ -21,7 +21,7 @@ from myApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.pie_chart, name='population-chart'),
+    # path('', views.pie_chart, name='population-chart'),
 ]
 
 
